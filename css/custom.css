@@ -1,0 +1,105 @@
+.product-list li {
+  text-align: left;
+}
+
+.product-list {
+  list-style: none;
+}
+
+
+.specials {
+  text-align: center;
+}
+
+.product-group {
+  padding: 0;
+}
+
+.panel-group .panel .panel-title  a i{
+  margin-left: 10px;
+}
+
+.bow {
+  padding-top: 5px;
+}
+
+.full-width {
+  padding: 0;
+  margin: 0;
+  width: 100vw;
+}
+
+.tab-pane {
+  height: 400px;
+}
+
+#tab-top1 {
+  background-image: url("../../images/bow_bkg.jpeg");
+  margin-left: 20px;
+}
+#tab-top2 {
+  background-image: url("../../images/gun_bkg.jpeg");
+}
+#tab-top3 {
+  background-image: url("../../images/broadhead_bkg.jpeg");
+}
+#tab-top4 {
+  background-image: url("../../images/archery_target_bg.jpg");
+}
+.right-align {
+  text-align: right;
+}
+
+
+#gun_list {
+list-style: none;
+margin-right: 10px;
+text-align: left;
+}
+.product-title{
+  color: #69B417;
+}
+
+@media (max-width: 770px) {
+  .transbox {
+    display: block!important;
+  }
+  #tab-top1 {
+    background: #fff;
+  }
+}
+
+@media (min-width: 770px){
+  .archery-range {
+    margin-top: 120px;
+  }
+}
+@media (min-width: 1050px){
+  .archery-range {
+    margin-top: 30px;
+  }
+}
+
+.transbox {
+  position: absolute;
+  background-color: #fff;
+  opacity: 0.9;
+  filter: alpha;
+  width: 100vw;
+  height: 400px;
+  display: none;
+}
+
+.tab-pane {
+  padding: 0;
+}
+
+.left span{
+  color: #69B417;
+}
+
+.footer-newsletter .container{
+  padding-top: 0;
+  margin-top: 10px;
+  border: 0px;
+}
